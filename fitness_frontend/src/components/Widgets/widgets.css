@@ -1,0 +1,80 @@
+.statCard {
+  border: 1px solid var(--color-border);
+  background: var(--color-surface);
+  border-radius: var(--radius-md);
+  padding: 16px;
+  box-shadow: var(--shadow-sm);
+}
+
+.statLabel {
+  font-size: 12px;
+  color: var(--color-muted);
+  font-weight: 700;
+}
+
+.statValue {
+  font-size: 22px;
+  font-weight: 900;
+  letter-spacing: -0.02em;
+  margin-top: 6px;
+}
+
+.statHint {
+  font-size: 12px;
+  margin-top: 6px;
+}
+
+.stat-primary {
+  border-color: rgba(59, 130, 246, 0.18);
+}
+
+.stat-secondary {
+  border-color: rgba(16, 185, 129, 0.22);
+}
+
+.stat-accent {
+  border-color: rgba(245, 158, 11, 0.3);
+}
+
+.formRow {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 12px;
+  flex-wrap: wrap;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  min-width: 180px;
+}
+
+.fieldLabel {
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.input {
+  border: 1px solid var(--color-border);
+  border-radius: 12px;
+  padding: 10px 12px;
+  outline: none;
+  background: white;
+}
+
+.input:focus {
+  border-color: rgba(59, 130, 246, 0.45);
+  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.15);
+}
+
+.errorBanner {
+  border: 1px solid rgba(239, 68, 68, 0.35);
+  background: rgba(239, 68, 68, 0.08);
+  color: var(--color-text);
+  border-radius: 12px;
+  padding: 10px 12px;
+  font-size: 12px;
+  font-weight: 650;
+  margin-bottom: 12px;
+}
